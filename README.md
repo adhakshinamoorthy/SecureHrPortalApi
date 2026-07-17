@@ -112,10 +112,10 @@ Swagger is available at:
 http://localhost:<port>/swagger
 ```
 
-Use the Swagger **Authorize** button and enter:
+Use the Swagger **Authorize** button and paste only the raw JWT value. Swagger UI adds the `Bearer` prefix automatically. Do not enter `Bearer ` yourself.
 
 ```text
-Bearer <jwt-token>
+<jwt-token>
 ```
 
 The development placeholder in `appsettings.json` allows the sample to start, but user-secrets are recommended even for local development.
