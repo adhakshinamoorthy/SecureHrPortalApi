@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SecureHrPortalApi.Tests/SecureHrPortalApi.Tests.csproj" />
+  <Project Path="SecureHrPortalApi/SecureHrPortalApi.csproj" />
+</Solution>
